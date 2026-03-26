@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@keyframes mozno-why-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.mozno-why-float {
+  animation: mozno-why-float 5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mozno-why-float {
+    animation: none;
+  }
+}
+
+/* Add to your global styles */
+.react-select__control {
+  min-height: 44px !important;
+}
+
+.react-select__value-container {
+  padding-left: 36px !important;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 320px) {
+  .react-select__control {
+    min-height: 40px !important;
+  }
+  
+  .react-select__value-container {
+    padding-left: 32px !important;
+  }
+}
+
+/* Prevent zoom on iOS inputs */
+@media (max-width: 480px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* Touch-friendly tap targets */
+@media (max-width: 768px) {
+  button,
+  input,
+  select,
+  textarea {
+    min-height: 44px;
+  }
+}
