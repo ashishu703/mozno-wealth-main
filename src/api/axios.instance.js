@@ -3,7 +3,7 @@ import { toast } from "sonner";
 
 const apiClient = axios.create({
 
-  baseURL: "https://mozno-wealth-server-main.onrender.com",
+  baseURL: "https://mozno-server.vercel.app/api",
 
   headers: {
     "Content-Type": "application/json",

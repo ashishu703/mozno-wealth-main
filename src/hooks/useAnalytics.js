@@ -160,9 +160,9 @@ const useAnalytics = () => {
         );
 
         const baseURL =
-          import.meta.env.VITE_API_BASE_URL || "http://localhost:3000";
+          import.meta.env.VITE_API_BASE_URL || "https://mozno-server.vercel.app/api";
         navigator.sendBeacon(
-          `${baseURL}/api/analytics/update-duration`,
+          `${baseURL}/analytics/update-duration`,
           blob,
         );
       }
