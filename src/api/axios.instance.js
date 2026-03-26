@@ -3,7 +3,7 @@ import { toast } from "sonner";
 
 const apiClient = axios.create({
 
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://mozno-wealth-server-main.onrender.com",
 
   headers: {
     "Content-Type": "application/json",
