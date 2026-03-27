@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { ChevronDown, Mail, ArrowRight, LogIn, ExternalLink } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../../assets/Mozno Wealth Logo with Name New.png";
+import logo from "../../assets/Mozno Logo Horizontal.png";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);

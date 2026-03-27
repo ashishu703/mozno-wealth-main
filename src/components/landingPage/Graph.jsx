@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "../../assets/hero.jpg";
-import whyChooseVisual from "../../assets/ChatGPT Image Mar 24, 2026, 09_44_35 PM.png";
+import whyChooseVisual from "../../assets/Screenshot 2026-03-27 122636.png";
 
 const AnimatedGraphSection = () => {
   const whyChooseItems = [

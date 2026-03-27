@@ -59,8 +59,6 @@ const HeroSection = () => {
   // Optimized typing sequences - shorter array
   const typingSequences = useMemo(
     () => [
-      "Smart Decisions.", 1500,
-      "Secured Retirement.", 1500,
       "Peace of Mind.", 1500,
     ],
     [],
@@ -88,16 +86,6 @@ const HeroSection = () => {
               animate="visible"
               className="w-full max-w-xl mx-auto lg:mx-0"
             >
-              {/* Trust Badge */}
-              <motion.div variants={fadeInUp} custom={0} className="mb-4 sm:mb-6">
-                <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1 sm:py-1.5 bg-emerald-50 border border-emerald-100 rounded-full">
-                  <Shield className="w-3 h-3 sm:w-4 sm:h-4 text-emerald-600 flex-shrink-0" />
-                  <span className="text-[10px] sm:text-xs md:text-sm font-medium text-emerald-700">
-                    AMFI Registered (ARN-338534) • APMI (APRN-08037)
-                  </span>
-                </div>
-              </motion.div>
-
               {/* Main Headline */}
               <motion.div variants={fadeInUp} custom={1} className="mb-3 sm:mb-4 md:mb-6">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-[1.15] tracking-tight">
@@ -150,7 +138,7 @@ const HeroSection = () => {
                   rel="noopener noreferrer"
                   className="group flex items-center justify-center gap-2 px-4 sm:px-6 py-3 sm:py-3.5 bg-gray-900 hover:bg-gray-800 text-white text-sm sm:text-base font-semibold rounded-xl transition-colors"
                 >
-                  <span>Talk to an Expert</span>
+                  <span>Book Free Consulation</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
 
@@ -158,44 +146,17 @@ const HeroSection = () => {
                   href="/contact"
                   className="flex items-center justify-center gap-2 px-4 sm:px-6 py-3 sm:py-3.5 bg-emerald-50 text-emerald-700 text-sm sm:text-base font-semibold rounded-xl border border-emerald-200 hover:border-emerald-300 hover:bg-emerald-100 transition-all"
                 >
-                  Book Free Consultation
+                  Free Protfolio Reviewed
                 </a>
               </motion.div>
 
-              {/* Stats */}
-              <motion.div variants={fadeInUp} custom={5} className="flex items-center gap-3 sm:gap-6">
-                <div className="flex items-center gap-2 sm:gap-3">
-                  <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl bg-emerald-100 flex items-center justify-center flex-shrink-0">
-                    <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-600" />
-                  </div>
-                  <div className="min-w-0">
-                    <p className="text-xs sm:text-sm font-bold text-gray-900">ARN-338534</p>
-                    <p className="text-[10px] sm:text-xs text-gray-500">AMFI Registered</p>
-                  </div>
-                </div>
-
-                <div className="w-px h-8 sm:h-10 bg-gray-200 flex-shrink-0" />
-
-                <div className="flex items-center gap-2 sm:gap-3">
-                  <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl bg-blue-100 flex items-center justify-center flex-shrink-0">
-                    <Award className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600" />
-                  </div>
-                  <div className="min-w-0">
-                    <p className="text-xs sm:text-sm font-bold text-gray-900">APRN-08037</p>
-                    <p className="text-[10px] sm:text-xs text-gray-500">APMI Registered</p>
-                  </div>
-                </div>
-              </motion.div>
+              
             </motion.div>
 
             {/* Right Services Card */}
             <div className="relative w-full mt-4 sm:mt-0">
               <div className="relative bg-white rounded-2xl sm:rounded-3xl shadow-lg sm:shadow-xl border border-gray-100 overflow-hidden mx-auto max-w-md lg:max-w-none">
                 <div className="p-4 sm:p-5 md:p-6">
-                  <div className="mb-2">
-                    <p className="text-xs font-semibold text-gray-800">Mozno Wealth</p>
-                    <p className="text-[11px] sm:text-xs text-gray-500">Your Personal CFO</p>
-                  </div>
                   <p className="text-xs sm:text-sm font-semibold text-gray-700 mb-3 sm:mb-4">
                     Personal Finance Made Easy
                   </p>

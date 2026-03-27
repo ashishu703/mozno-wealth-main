@@ -2,7 +2,7 @@ import React from 'react';
 import { Mail, MapPin, Linkedin, Instagram, Youtube, ArrowRight, MessageCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Aibot from './bot';
-import horizontalLogo from "../../assets/Mozno Wealth Logo with Name New.png";
+import horizontalLogo from "../../assets/Mozno Logo Horizontal.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
